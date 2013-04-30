@@ -12,10 +12,10 @@ You may either change to the fonts directory and simply run the command `webfont
 
 By default the web fonts will be generated into the original fonts directory. You may optionally add the -o followed by a path to copy the original ttfs and generate the web fonts into a different directory.
 
-CSS for Embedding
-------------------
+Recommended CSS for Embedding
+-----------------------------
 
-  @font-face {
+	@font-face {
 	  font-family: '<Font Name>';
 	  src: url('fonts/<fontname>.eot');
 	  src: url('fonts/<fontname>.eot?iefix') format('eot'),
@@ -25,4 +25,3 @@ CSS for Embedding
 	  font-style: normal;
 	  font-weight: normal;
 	}
-
